@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "pattern": [
+    "SSS",
+    "SBS",
+    " # "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "B": {
+      "item": "minecraft:yellow_dye"
+    },
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "minecraft:music_disc_creator_music_box",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "\"Yellow Lollipop\"",
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 1,
+        "eat_seconds": 0.75,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:strength",
+              "amplifier": 0,
+              "duration": 200,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          }
+        ]
+      },
+      "minecraft:custom_model_data": 169206,
+      "!minecraft:jukebox_playable": {}
+    }
+  }
+}

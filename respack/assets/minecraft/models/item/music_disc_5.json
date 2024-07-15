@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/music_disc_5"
+    },
+    "overrides": [
+      { "predicate": { "custom_model_data": 169004 }, "model": "treatsnsweets:item/icecream" }
+    ]
+}

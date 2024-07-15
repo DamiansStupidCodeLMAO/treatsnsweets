@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_5",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 169004,
+        "minecraft:item_name": "\"Ice Cream\""
+      }
+    },
+    "title": "BRAIN FREEZE!!!",
+    "description": "Craft and eat some Ice Cream... and rethink your life choices.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "treatsnsweets:time_to_whisk",
+  "criteria": {
+    "whisk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:music_disc_5",
+          "components": {
+            "minecraft:item_name": "\"Ice Cream\"",
+            "minecraft:custom_model_data": 169004,
+            "minecraft:food": {
+              "nutrition": 7,
+              "saturation": 2
+            },
+            "minecraft:rarity": "common"
+          }
+        }
+      }
+    }
+  }
+}

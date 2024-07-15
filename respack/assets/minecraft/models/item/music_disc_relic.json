@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/music_disc_relic"
+    },
+    "overrides": [
+      { "predicate": { "custom_model_data": 169005 }, "model": "treatsnsweets:item/sundae" }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot_soup"
+    },
+    {
+      "item": "minecraft:music_disc_5"
+    },
+    {
+      "item": "minecraft:music_disc_pigstep"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "result": {
+    "id": "minecraft:music_disc_relic",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "\"Caramel Sundae\"",
+      "minecraft:custom_model_data": 169005,
+      "!minecraft:jukebox_playable": {},
+      "minecraft:food": {
+        "nutrition": 8,
+        "saturation": 4,
+        "effects": [
+          {
+            "effect": {
+              "id": "minecraft:speed",
+              "amplifier": 2,
+              "duration": 1200,
+              "ambient": true,
+              "show_particles": true,
+              "show_icon": true
+            }
+          },
+          {
+            "effect": {
+              "id": "minecraft:regeneration",
+              "amplifier": 0,
+              "duration": 600
+            }
+          }
+        ]
+      },
+      "minecraft:rarity": "common"
+    }
+  }
+}

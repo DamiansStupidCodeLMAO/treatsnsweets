@@ -1,0 +1,8 @@
+{
+    "pack": {
+        "pack_format": 37,
+        "supported_formats": {"min_inclusive": 0, "max_inclusive": 42069}, 
+        "__comment": "yeah honestly idfk how pack format stuff works",
+        "description": "Damienne's Treats 'n' Sweets - Resources"
+    }
+}

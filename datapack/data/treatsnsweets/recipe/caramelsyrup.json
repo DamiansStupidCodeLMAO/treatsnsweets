@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "minecraft:sugar"
+  },
+  "result": {
+    "id": "minecraft:beetroot_soup",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 2,
+        "using_converts_to": {
+          "id": "minecraft:glass_bottle"
+        }
+      },
+      "minecraft:item_name": "\"Caramel Syrup\"",
+      "minecraft:custom_model_data": 169002
+    }
+  },
+  "experience": 2
+}

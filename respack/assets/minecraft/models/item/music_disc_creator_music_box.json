@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/music_disc_creator_music_box"
+    },
+    "overrides": [
+      { "predicate": { "custom_model_data": 169006 }, "model": "treatsnsweets:item/bluelollipop" },
+      { "predicate": { "custom_model_data": 169106 }, "model": "treatsnsweets:item/redlollipop" },
+      { "predicate": { "custom_model_data": 169206 }, "model": "treatsnsweets:item/yellowlollipop" },
+      { "predicate": { "custom_model_data": 169306 }, "model": "treatsnsweets:item/greenlollipop" }
+    ]
+}

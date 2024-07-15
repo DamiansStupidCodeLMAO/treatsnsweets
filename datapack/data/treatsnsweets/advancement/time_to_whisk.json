@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_shovel",
+      "count": 1,
+      "components": {
+        "minecraft:custom_model_data": 169001,
+        "minecraft:item_name": "\"Whisk\""
+      }
+    },
+    "title": "Time to Whisk!",
+    "description": "Craft a whisk for the first time.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "treatsnsweets:root",
+  "criteria": {
+    "whisk": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_shovel",
+            "count": 1,
+            "components": {
+              "minecraft:item_name": "\"Whisk\"",
+              "minecraft:custom_model_data": 169001
+            }
+          }
+        ]
+      }
+    }
+  }
+}

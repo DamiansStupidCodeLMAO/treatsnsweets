@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:music_disc_relic",
+      "count": 1,
+      "components": {
+        "minecraft:item_name": "\"Caramel Sundae\"",
+        "minecraft:custom_model_data": 169005
+      }
+    },
+    "title": "The Perfect Combo",
+    "description": "Craft and eat a Caramel Sundae.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "treatsnsweets:brain_freeze",
+  "criteria": {
+    "whisk": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:music_disc_relic",
+          "components": {
+            "minecraft:item_name": "\"Caramel Sundae\"",
+            "minecraft:custom_model_data": 169005,
+            "minecraft:food": {
+              "nutrition": 8,
+              "saturation": 4,
+              "effects": [
+                {
+                  "effect": {
+                    "id": "minecraft:speed",
+                    "amplifier": 2,
+                    "duration": 1200,
+                    "ambient": true,
+                    "show_particles": true,
+                    "show_icon": true
+                  }
+                },
+                {
+                  "effect": {
+                    "id": "minecraft:regeneration",
+                    "amplifier": 0,
+                    "duration": 600
+                  }
+                }
+              ]
+            },
+            "minecraft:rarity": "common"
+          }
+        }
+      }
+    }
+  }
+}
